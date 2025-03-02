@@ -24,20 +24,20 @@ class Biodata {
 
     public static void main(String[] args)
     {
-        Scanner biod = new biod(System.in);
+        Scanner biod = new Scanner(System.in);
         System.out.println("Enter your Name: ");
-        String name = biod.nextline();
+        String name = biod.nextLine();
         System.out.println("Enter your Age: ");
         int age = biod.nextInt();
         System.out.println("Enter your Gender: ");
-        String gender = biod.nextline();
+        String gender = biod.nextLine();
         System.out.println("Enter your Email: " );
-        String email = biod.nextline();
+        String email = biod.nextLine();
         System.out.println("Enter your Phone: " );
-        String phone = biod.nextline();
+        String phone = biod.nextLine();
     }
 
-    Biodata biod = new Biodata(name,age,gende,email,phone);
+    Biodata biod = new Biodata(name,age,gender,email,phone);
     biod.displayBiodata();
 
 }
